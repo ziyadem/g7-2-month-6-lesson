@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.divone{
+    width: 300px;
+    height: 200px;
+    border: 4px dashed black;
+    padding: 50px;
+    /* background-color: aqua;
+    opacity: 0.3; */
+    background: rgba(0, 128, 0, 0.3)
+}
+.divtwo{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 4px dashed black;
+    margin-top: 50px;
+    opacity: 0.3;
+}
+.divthree{
+    width: 500px;
+    height: 700px;
+    border: 4px dashed black;
+    margin-top: 50px;
+    background-image: url("../img/bacgraund.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+body{
+    /* background-image: url("../img/bacgraund.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background: #fff url("../img/bacgraund.jpg") no-repeat right top;
+}
